@@ -1,4 +1,4 @@
-## VitaSDK. How to build.
+## VitaSDK. How to build.d
 
 ```
 apt-get install cmake git build-essential autoconf texinfo bison flex
