@@ -4,7 +4,7 @@ FROM alpine:latest
 COPY . /src
 
 RUN apk add build-base cmake git bash autoconf texinfo patch pkgconfig
-RUN cd /src && mkdir build && cd build && cmake .. && make -j$(nproc)
+RUN cd /src && mkdir build && cd build && cmake .. && make -j4
 
 # Second stage of Dockerfile
 FROM alpine:latest  
